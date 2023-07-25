@@ -1,0 +1,56 @@
+/* Add a class for the shopping list items container */
+#shoppingListContainer {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the shopping list items */
+.shoppingListItem {
+  position: relative;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center; /* Vertically align the item and button */
+}
+
+/* Style the "Delete" button */
+.shoppingListItem button.deleteButton {
+  background-color: #ff0000;
+  color: #ed1e07cc;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Optional: Add some space between the "Delete" button and the item text */
+.shoppingListItem span {
+  margin-right: 30px;
+}
+
+body {
+  width: 300px;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+#itemInput {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+#addItemBtn {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
